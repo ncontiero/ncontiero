@@ -34,7 +34,7 @@ jobs:
 
       # Snake Animation
       - name: generate contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@e2cedf76a2c05b25d09a6428ded69727b497a700 # v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
